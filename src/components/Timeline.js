@@ -23,8 +23,4 @@ const Timeline = (props) => {
   );
 };
 
-// Timeline.propTypes = {
-
-// }
-
 export default Timeline;
