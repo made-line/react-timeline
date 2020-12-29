@@ -5,13 +5,13 @@ import Timestamp from './Timestamp';
 
 
 const TimelineEvent = (props) => {
-  return(
+  return (
     <div className="TimelineEvent">
-    <ul>
-    <li>person: {props.person}</li>
-    <li>status: {props.status}</li>
-    <li>timestamp: <Timestamp time={props.timeStamp} /></li>
-    </ul>
+      <ul>
+        <li>person: {props.person}</li>
+        <li>status: {props.status}</li>
+        <li>timestamp: <Timestamp time={props.timeStamp} /></li>
+      </ul>
 
     </div>
   );
